@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 :root {
     --bg-color: #570c9d;
 }
@@ -6,6 +8,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 html, body {
@@ -26,12 +29,18 @@ main {
     color: #fff;
 }
 
+h1 {
+    font-weight: 400;
+}
+
 section h1 {
     padding: 15px;
+    font-weight: 300;
 }
 
 section#search p {
     padding: 15px;
+    font-weight: 300;
 }
 
 input {
@@ -63,6 +72,7 @@ footer {
     color: #fff;
     padding: 15px;
     width: 100%;
+    font-weight: 300;
 }
 
 footer img {
